@@ -5,47 +5,59 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Boty</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">		
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-	<!-- levá (zelená) polovina -->
-		<img src="images/nike.svg" alt="logo Nike" width="65" height="24">
+	<div class="container">
 
-		<p>
-			Zrychli tempo,<br>
-			soustřeď se na rychlost!
-		</p>
+		<div class="side left">
+			<!-- levá (zelená) polovina -->
+			<img class="logo" src="images/nike.svg" alt="logo Nike" width="65" height="24">
 
-		<img src="images/bota.png" alt="fotografie Nike Air Zoom Pegasus 33" width="415" height="295">
+			<p class="catchword">
+				Zrychli tempo,<br>
+				soustřeď se na rychlost!
+			</p>
 
-		<div>2450&nbsp;Kč</div>
-		<div>Prodloužená záruka 3 roky</div>
-	<!-- konec levé poloviny -->
+			<img class="shoe" src="images/bota.png" alt="fotografie Nike Air Zoom Pegasus 33" width="415" height="295">
 
+			<div class="label">
+				<div class="price">2450&nbsp;Kč</div>
+				<div>Prodloužená záruka 3 roky</div>
+			</div>
+		<!-- konec levé poloviny -->
+		</div>
 
-	<!-- pravá (bílá) polovina -->
-		<h1>Nike Air Zoom Pegasus 33</h1>
+		<div class="side right">
+		<!-- pravá (bílá) polovina -->
+			<h1>Nike Air Zoom Pegasus 33</h1>
 
-		<p>Dámská běžecká bota</p>
+			<p class="category">Dámská běžecká bota</p>
 
-		<p>
-			Nike Air Zoom Pegasus 33 dokonale padne, dodá pocit rychlosti a má pružné tlumení, které ti umožní zrychlit tempo a soustředit se na rychlost.
-		</p>
+			<p class="description">
+				Nike Air Zoom Pegasus 33 dokonale padne, dodá pocit rychlosti a má pružné tlumení, které ti umožní zrychlit tempo a soustředit se na rychlost.
+			</p>
 
-		<h2>Velikost</h2>
+			<h2>Velikost</h2>
 
-		<ul>
-			<li>35</li>
-			<li>36</li>
-			<li>37</li>
-			<li>38</li><!-- tato velikost bude zvýrazněná jako vybraná -->
-			<li>39</li>
-			<li>40</li>
-		</ul>
+			<ul class="size">
+				<li>35</li>
+				<li>36</li>
+				<li>37</li>
+				<li class="selected">38</li><!-- tato velikost bude zvýrazněná jako vybraná -->
+				<li>39</li>
+				<li>40</li>
+			</ul>
 
-		<a href="#">Do košíku</a>
-	<!-- konec pravé poloviny -->
+			<a href="#" class="button">Do košíku</a>
+		<!-- konec pravé poloviny -->
+		</div>
+
+	</div>
 
 </body>
 </html>
